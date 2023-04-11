@@ -12,21 +12,37 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    height:100vh;
     color: black;
+  }
+  .greeting{
+    background-image: url();
   }
   
   #time {
-    font-size: 8rem;
+    margin-right: 80px;
+    font-size: 4rem;
+    color: black;
+    opacity: 0.7;
+    
+    
   }
   
   h1 {
+    font-size: 2rem;
+    margin-right: 70px;
+    margin-top: 1rem;
     margin-bottom: 3rem;
+    color: black;
+    opacity: 0.7;
+    
   }
   
   h2 {
     margin-bottom: 0.5rem;
-    opacity: 0.6;
+    margin-right: 70px;
+    opacity: 0.7;
+    color: black;
   }
   
   @media (max-width: 700px) {
